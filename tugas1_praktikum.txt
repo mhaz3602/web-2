@@ -1,0 +1,28 @@
+( Muhammad Hudzaifah Ali Al-Mubarok 24SI10 )
+
+1. Jelaskan apa yang dimaksud dengan dokumen root? 
+Dokumen root itu direktori utama tempat sebuah server web mencari file yang akan ditampilkan kepada pengguna melalui browser. Ini adalah titik awal dari struktur file dalam server web dan biasanya berisi file utama seperti index.html atau index.php.
+
+2. Pada Apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs? Jelaskan jawaban anda.  
+Tidak harus. Secara default, Apache dalam XAMPP menggunakan `C:\xampp\htdocs` sebagai direktori root, tetapi pengaturan ini dapat diubah dengan mengedit file konfigurasi Apache (`httpd.conf`). Dengan mengubah nilai `DocumentRoot`, kita bisa menentukan direktori lain sebagai dokumen root.
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout. 
+   - `init`: Membuat repository Git baru dalam direktori lokal.
+   - `clone`: Menyalin repository Git dari remote ke lokal.
+   - `remote`: Menghubungkan repository lokal dengan repository remote.
+   - `add`: Menambahkan file yang telah dimodifikasi ke dalam staging area sebelum commit.
+   - `commit`: Menyimpan perubahan yang ada di staging area ke dalam repository lokal.
+   - `push`: Mengirimkan commit dari repository lokal ke repository remote.
+   - `checkout`: Berpindah antar branch atau mengembalikan file ke kondisi tertentu.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab.  
+   - GitHub lebih populer dan banyak digunakan oleh komunitas open-source. Menawarkan fitur dasar gratis dan fitur tambahan berbayar.
+   - GitLab lebih berfokus pada CI/CD (Continuous Integration/Continuous Deployment) dan memberikan lebih banyak fitur gratis dibanding GitHub, terutama untuk penggunaan pribadi atau perusahaan.
+
+5. Apa bedanya variable user dengan variable system?  
+   - Variable user adalah variabel lingkungan yang hanya berlaku untuk pengguna tertentu di dalam sistem.
+   - Variable system adalah variabel lingkungan yang berlaku untuk semua pengguna di dalam sistem.
+
+6. Apa persamaan variable system dengan variable constant?  
+Keduanya menyimpan nilai yang digunakan dalam suatu sistem atau program. Selain itu, keduanya cenderung digunakan untuk nilai yang tetap dan jarang berubah selama eksekusi sistem atau program.
+
